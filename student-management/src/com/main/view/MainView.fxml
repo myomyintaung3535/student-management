@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="50.0" style="-fx-background-color: #00b8a9;">
+         <children>
+            <Label text="MOE THOUT PAN" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox VBox.vgrow="ALWAYS">
+         <children>
+            <VBox prefWidth="200.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" spacing="10.0">
+                     <children>
+                        <FontAwesomeIconView glyphName="DATABASE" size="20" wrappingWidth="16.285714149475098">
+                           <font>
+                              <Font size="15.0" />
+                           </font></FontAwesomeIconView>
+                        <Label prefHeight="25.0" prefWidth="100.0" text="Home" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Mongolian Baiti" size="23.0" />
+                           </font></Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="100.0" spacing="10.0">
+                     <children>
+                        <FontAwesomeIconView glyphName="FontAwesomeIcon.USER_CIRCLE_ALT" />
+                        <Label prefHeight="25.0" prefWidth="100.0" text="Classes" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Mongolian Baiti" size="23.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="60.0" prefHeight="100.0" spacing="10.0">
+                     <children>
+                        <FontAwesomeIconView />
+                        <Label prefHeight="25.0" prefWidth="100.0" text="Teachers" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Mongolian Baiti" size="23.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="110.0" prefHeight="100.0" spacing="10.0">
+                     <children>
+                        <FontAwesomeIconView />
+                        <Label prefHeight="25.0" prefWidth="100.0" text="Students">
+                           <font>
+                              <Font name="Mongolian Baiti" size="23.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <StackPane prefHeight="150.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
